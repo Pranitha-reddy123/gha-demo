@@ -1,13 +1,13 @@
 name: Hello World
 on: 
-   push:
-     branches: 
+  push:
+    branches: 
        -main
-    workflow_dispatch:
+  workflow_dispatch:
 jobs:
   build:
-  runs-on: ubuntu-latest
-  steps:
-  - name: Say Hello
-    run: echo "hello world"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "hello world"
 
