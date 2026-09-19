@@ -9,5 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say Hello
-        run: echo "hello world"
+        run: 
+          echo "hello world"
+          echo "this is GitHubActions"
 
